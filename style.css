@@ -1,0 +1,366 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    overflow: auto;
+}
+
+.main{
+    box-shadow: inset 5px 40px  30px black;
+    background-image: url(Assets/large\ bg.jpg);
+    height: 110vh;
+    width: 100%;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    
+}
+.main .box{
+    height: 110vh;
+    width: 100%;
+    opacity: 0.46;
+    background-color:black;
+    
+    position: absolute;
+    top: 0;
+
+}
+nav{
+    display: flex;
+    max-width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    
+    height: 62px;
+    z-index: 10;
+   
+    
+}
+span img{
+    position: relative;
+     /* right: 120px; */
+     width: 200px;
+     top: 20px;
+     right: 100px;
+}
+    
+
+nav button{
+    position: relative;
+    top: 20px;
+    z-index: 10;
+   
+
+}
+
+.hero{
+    font-family: 'Martel Sans', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 30px;
+}
+.hero >:first-child{
+    font-weight:bolder;
+    font-size: 48px;
+    text-align: center;
+}
+.hero> :nth-child(2){
+    font-weight:400;
+    font-size: 24px;
+    text-align: center;
+}
+.hero> :nth-child(3){
+    font-weight:400;
+    font-size: 20px;
+    text-align: center;
+}
+.form button{
+    background-color: red;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 26px;
+    font-weight:400;
+    height: 55px;
+    width: 250px;
+    color: white;
+    border-radius: 6px;
+    position: relative;
+    left: 15px;
+    padding: 5px;
+    text-align: center;
+    
+
+     
+}
+.input{
+    background-color: rgba(0, 0, 0, 0.438);
+    border: 2px solid white;
+    width: 300px;
+    height: 45px;
+    /* margin: 2px; */
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-size: larger;
+
+ 
+}
+
+    
+
+#sign{
+    font-family: 'Martel Sans', sans-serif;
+    font-weight:bold;
+    font-size: 15px;
+    height: 40px;
+    width: 90px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+
+    
+}
+#english{
+    background-color: rgba(8, 0, 1, 0.58);
+    color: rgba(255, 255, 255, 0.719);
+    font-family: 'Martel Sans', sans-serif;
+    font-weight:bold;
+    font-size: 15px;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+   
+    text-align: center;
+   
+}
+
+
+.separation{
+    position: relative;
+    bottom: 127px;
+    height: 5px;
+    background-color: gray;
+    
+    
+}
+#getstarted span{
+    font-weight: bolder;
+}
+/* --------------------------------- */
+
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.secimg{
+    position: relative;
+    width: 50vw;
+    z-index: 5;
+
+
+}
+.secimg video{
+    position: absolute;
+    top: 95px;
+    right: 75px;
+   
+}
+
+
+.first > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.first > div :first-child{
+    font-family: 'Martel Sans', sans-serif;
+
+    font-size: 48px;
+    font-weight: bolder;
+    gap: 6px;
+}
+
+
+
+
+
+.smarttv{
+    font-family: 'Martel Sans', sans-serif;
+    gap: 6px;
+    font-size: 25px;
+    /* font-weight: bolder; */
+
+
+}
+
+.separation1{
+    position: relative;
+    height: 5px;
+    background-color: gray;
+    z-index: 5;
+
+}
+
+
+
+
+/* -------------------------------------------- */
+.faq h2{
+    position: relative;
+    top: 20px;
+    font-family: 'Martel Sans', sans-serif;
+
+    text-align: center;
+}
+.faq{
+    background-color: black;
+   
+    color: white;
+}
+.faqbox{
+    position: relative;
+    top: 30px;
+    display: flex;
+    background-color: gray;
+    padding: 24px;
+    max-width: 40vw;
+    margin: auto;
+    
+}
+
+
+
+
+
+
+
+
+--------------------------
+
+
+
+
+
+
+
+
+
+
+.faq1{
+    background-color: black;
+   
+    color: white;
+}
+.faqbox1{
+    display: flex;
+    background-color:gray;
+    color: white;
+    padding: 24px;
+    max-width: 40vw;
+    margin: auto;
+}
+
+.faqbox1 span{
+    position: relative;
+    top: 10px;
+}
+
+
+
+
+
+
+/* ---------------------------- */
+.faqbox2{
+    display: flex;
+    background-color:gray;
+    color: white;
+    padding: 24px;
+    max-width: 40vw;
+    margin: auto;
+    height: 3px;
+}
+
+.faq2{
+    background-color: black;
+    
+   
+    color: white;
+}
+
+
+.faqbox2 span{
+    position: relative;
+    top: -10px;
+}
+
+/* ---------------------------------- */
+
+.separation2{
+    position: relative;
+    top: 20px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    z-index: 5;
+
+}
+
+.separation3{
+    position: relative;
+    top: 0px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    z-index: 5;
+
+}
+
+
+
+.faqbox:hover{
+    background-color: rgb(167, 166, 166);
+}
+
+.faqbox1:hover{
+    background-color: rgb(167, 166, 166);
+}
+
+.faqbox2:hover{
+    background-color: rgb(167, 169, 166);
+}
+
+
+
+
+/* ------------------------------------- */
+
+footer{
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+
